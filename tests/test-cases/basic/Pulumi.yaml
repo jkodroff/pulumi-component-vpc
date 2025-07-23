@@ -1,0 +1,8 @@
+name: pulumi-component-vpc-test-basic
+runtime: yaml
+config: { "pulumi:tags": { value: { "pulumi:template": yaml } } }
+resources:
+  test:
+    type: pulumi-component-vpc:Vpc
+packages:
+  pulumi-component-vpc: ../../../component@0.0.0
