@@ -1,0 +1,4 @@
+environment:
+  - aws/aws-oidc-admin
+  - aws/aws-oidc-admin
+  - aws/aws-oidc-admin
